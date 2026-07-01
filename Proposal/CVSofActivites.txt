@@ -1,0 +1,130 @@
+# label: %ActiNo% %Activit%<br>Member:%Member%<br>StartDate:%Date%<br>EndDate:%Deadline%
+# style: table;html=1;
+# namespace: csvimport-
+#
+# connect: {"from": "refs", "to": "ActiNo","invert":true, "label": "%Duration% "style": "curved=0;endArrow=blockThin;fontSize=11;"}
+#
+# width: auto
+#
+# height: auto
+#
+# collapsed: false
+# 
+# padding: -12
+# ignore: Duration, refs
+# nodespacing: 40
+#
+# levelspacing: 100
+#
+# edgespacing: 40
+#
+# layout: auto
+#
+## ---- CSV below this line. First line are column names. ----
+ActiNo,Activit,Member,Date,Duration,Deadline,refs
+A1,Plan to finsh proposal,,,,,
+A1.1,Recruit team,Linsong,24-Aug,2,As start time,A1
+A1.2,Decide leader of project and  build basic communication ,All team,25-Aug,0.5,As start time,A1
+A1.3,Standard work report & Assgin,All team,30-Aug,0.5,As start time,A1
+A1.3.1,Creating google document,Fatoumata,30-Aug,0.5,30-Aug,A1.3
+A1.3.2,Build basic FWBS,Linsong,30-Aug,5,1-Sep,A1.3
+A1.3.3,Build basic Cost chart,Habiba,30-Aug,5,6-Sep,A1.3
+A1.3.4,Build Milestone,Fatoumata,30-Aug,2,6-Sep,A1.3
+A1.4,Meeting with client about FWBS,All team,1-Sep,0.5,As start time,A1
+A1.4.1,Discuss about meeting with client,All team,2-Sep,0.5,As start time,A1.4
+A1.4.1.1,Do changes base on client's suggest,All team,2-Sep,4,5-Sep,A1.4.1
+A1.5,Standard work report & Assgin,All team,5-Sep,0.5,,A1
+A1.5.1,Complete FWBS,Linsong,5-Sep,4,8-Sep,A1.5
+A1.5.2,Complete milestone,Fatoumata,5-Sep,0.5,As start time,A1.5
+A1.5.3,Work on discussed changes on Cost chart,Habiba,5-Sep,0.5,As start time,A1.5
+A1.6,Standard work report & Assgin new work,All team,8-Sep,0.5,As start time,A1
+A1.6.1,Build activities table,Linsong,8-Sep,5,14-Sep,A1.6
+A1.6.2,Build Risk table and Risk management plan,Habiba,8-Sep,5,14-Sep,A1.6
+A1.6.3,Build Data management plan and security plan,Fatoumata,8-Sep,5,14-Sep,A1.6
+A1.7,Standard work report and  meet client and discuss changes,All team,14-Sep,0.5,As start time,A1
+A1.7.1,Build Activit graph and  calculate CPA,Linsong,14-Sep,5,16-Sep,A1.7
+A1.7.2,Build gantt chart and  write project team organization and  exchange Data mangement to sever selection,Fatoumata,14-Sep,5,16-Sep,A1.7
+A1.7.3,Finsh build final cost table and  estimate model,Habiba,14-Sep,5,16-Sep,A1.7
+A1.8,Standard work report & Assgin new work,All team,16-Sep,0.5,As start time,A1
+A1.8.1,Write Deliverables and  maintenance plan and  warranty and terminology,Linsong,16-Sep,2,17-Sep,A1.8
+A1.8.2,Write Cover letter and  title and intro,Fatoumata,16-Sep,2,17-Sep,A1.8
+A1.8.3,Write Alternatives and  Terms of Acceptance and Conditions,Habiba,16-Sep,2,17-Sep,A1.8
+A1.9,Standard work report and  meet client and discuss changes,All team,17-Sep,5,As start time,A1
+A1.10,Sumbit the Proposal,All team,18-Sep,5,As start time,A1.
+A2,Plan to finsh RD,,,,,
+A2.1,Standard work report and  meet client and discuss changes,All team,20-Sep,0.5,As start time,A2
+A2.1.1,Build basic Appendix,Linsong,20-Sep,3,22-Sep,A2.1
+A2.1.2 ,Write basic Introduction and General Description,Fatoumata,20-Sep,3,22-Sep,A2.1.
+A2.1.3,Write Functional Requirements,Habiba,20-Sep,3,22-Sep,A2.1
+A2.2,Standard work report & Assgin new work,All team,22-Sep,0.5,As start time,A2
+A2.2.1,Finsh build Appendix and start Log of meeting etc.,Linsong,22-Sep,,27-Sep,A2.2
+A2.2.2,Finsh Functional Requirements and start Non-Funcitonal Requirements,Habiba,22-Sep,,27-Sep,A2.2
+A2.2.3,Finsh writing intro and  Description and Change Control,Fatoumata,22-Sep,,27-Sep,A2.2
+A2.3,Standard work report and  meet client and discuss changes,All team,27-Sep,0.5,As start time,A2
+A2.3.1,Do changes base on client's suggest,All team,27-Sep,5,29-Sep,A2.3
+A2.4,Standard work report & Assgin new work,All team,29-Sep,0.5,As start time,A2
+A2.4.1,Write Terms and Conditions and  Table of Contents and Finalize RD,All team,29-Sep,2,30-Sep,A2.4
+A2.5,Standard work report and  meet client and discuss changes,All team,30-Sep,0.5,As start time,A2
+A2.6,Do Final changes base on client's suggestion and sumbit RD,All team,30-Sep,5,3-Oct,A2
+A2.7,Presentation of project,All team,TBA,1,As start time,A2
+A3,Plan to finsh DS,,,,,
+A3.1,Standard work report and  meet client and discuss changes,All team,4-Oct,0.5,As start time,A3
+A3.1.1,Write basic design,Linsong,4-Oct,5,6-Oct,A3.1
+A3.1.2,Write basic intro,Fatoumata,4-Oct,5,6-Oct,A3.1
+A3.1.3,Help others,Habiba,4-Oct,5,6-Oct,A3.1
+A3.2,Standard work report & Assgin new work,All team,6-Oct,0.5,As start time,A3
+A3.2.1,Finsh writing design,Linsong,6-Oct,5,11-Oct,A3.2
+A3.2.2,Finsh writing intro ,Fatoumata,6-Oct,3,11-Oct,A3.2
+A3.2.3,TBA,Habiba,6-Oct,TBA,11-Oct,A3.2
+A6,Plan to finsh Coding of basic B-bay system,,11-Oct,,,
+A6.1,Standard work report & Assgin new work,All team,11-Oct,0.5,As start time,A6
+A6.1.1,Build the basic framework of website for B-bay,Linsong,11-Oct,10,13-Oct,A6.1
+A3.3,Standard work report and  meet client and discuss changes,All team,13-Oct,0.5,As start time,A3
+A3.3.1,continue working on DS base of clients suggestion,All team,13-Oct,,18-Oct,A3.3
+A4,Plan to finsh ATP,,,,,
+A4.1,Standard work report and  meet client and discuss changes,All team,18-Oct,0.5,As start time,A4
+A4.1.1,Build Proposed system overview,Linsong,18-Oct,10,20-Oct,A4.1
+A4.1.2,Build Test schedule and test sets,Fatoumata,18-Oct,10,20-Oct,A4.1
+A4.1.3,Write Hardware Requirements and Software Requirements,Habiba,18-Oct,10,20-Oct,A4.1
+A4.2,Standard work report & Assgin new work,All team,20-Oct,0.5,As start time,A4
+A4.2.1,Wtrite log of meetings etc and  and Acceptance,Linsong,20-Oct,10,21-Oct,A4.2
+A4.2.2,Write Individual test cases,Fatoumata,20-Oct,10,21-Oct,A4.2
+A4.2.3,Write Appendix and  intro and rest of APT,Habiba,20-Oct,10,21-Oct,A4.2
+A3.5,Standard work report and  meet client and discuss changes,All team,21-Oct,0.5,As start time,A3
+A3.5.1,Do Final changes base on client's suggestion and sumbit DS,All team,21-Oct,5,23-Oct,A3.5
+A4.3,Standard work report and  meet client and discuss changes,All team,25-Oct,0.5,As start time,A4
+A4.3.1,Do Final changes base on client's suggestion and sumbit ATP,All team,25-Oct,,26-Oct,A4.3
+A5,Plan to finsh STP,,,,,
+A5.1,Standard work report & Assgin new work,All team,27-Oct,0.5,As start time,A5
+A5.1.1,Build table of test data and expected output of FWBS4,Linsong,27-Oct,10,1-Nov,A5.1
+A5.1.2,Build table of test data and expected output of FWBS2,Fatoumata,27-Oct,10,1-Nov,A5.1
+A5.1.3,Build table of test data and expected output of FWBS1,Habiba,27-Oct,10,1-Nov,A5.1
+A6.2,Standard work report & Assgin new work,All team,1-Nov,0.5,As start time,A6
+A6.2.1,Code FWBS1.1 and all sub functions of those,Habiba,1-Nov,10,3-Nov,A6.2
+A6.2.2,Code FWBS2. Add merchandise and sub funcions of FWBS2.,Fatoumata,1-Nov,10,3-Nov,A6.2
+A6.2.3,Code half of FWBS4.  and FWBS 4.1 and sub funcions of FWBS4.1,Linsong,1-Nov,10,3-Nov,A6.2
+A6.3,Standard work report & Assgin new work,All team,3-Nov,0.5,As start time,A6
+A6.3.1,Code  FWBS1.3 and all sub functions of those,Habiba,3-Nov,10,8-Nov,A6.3
+A6.3.2,Code FWBS2. Add merchandise and sub funcions of FWBS2.,Fatoumata,3-Nov,10,8-Nov,A6.3
+A6.3.3,Code FWBS4.  and FWBS 4.1 and sub funcions of FWBS4.1,Linsong,3-Nov,10,8-Nov,A6.3
+A5.2,Standard work report and  meet client and discuss changes,All team,8-Nov,0.5,As start time,A5
+A5.2.1,Debug and test FWBS 4.1 ,Linsong,8-Nov,10,10-Nov,A5.2
+A5.2.2,Debug and test FWBS2,Fatoumata,8-Nov,10,10-Nov,A5.2
+A5.2.3,Debug and test FWBS1.1 and FWBS 1.3,Habiba,8-Nov,10,10-Nov,A5.2
+A6.4,Standard work report & Assgin new work,All team,10-Nov,0.5,As start time,A6
+A6.4.1,Code half of FWBS 1 and  FWBS1.2 and all sub functions of it,Habiba,10-Nov,10,15-Nov,A6.4
+A6.4.2,Code half of FWBS 3. and all subfunctions of it,Fatoumata,10-Nov,10,15-Nov,A6.4
+A6.4.3,Code FWBS 5.1 and  5.6 and sub functions of them,Linsong,10-Nov,10,15-Nov,A6.4
+A6.5,Standard work report and  meet client and discuss changes,All team,15-Nov,0.5,As start time,A6
+A6.5.1,Code FWBS 5.2 and sub functions of them,Linsong,15-Nov,10,17-Nov,A6.5
+A6.5.2,Code FWBS 3. and all subfunctions of it,Fatoumata,15-Nov,10,17-Nov,A6.5
+A6.5.3,Code FWBS 1 and  FWBS1.2 and all sub functions of it,Habiba,15-Nov,10,17-Nov,A6.5
+A5.3,Standard work report & Assgin new work,All team,17-Nov,0.5,As start time,A5
+A5.3.1,Debug and test FWBS 5.2,Linsong,17-Nov,10,18-Nov,A5.3
+A5.3.2,Debug and test FWBS 3,Fatoumata,17-Nov,10,18-Nov,A5.3
+A5.3.3,Debug and test FWBS 1 and FWBS 1.2,Habiba,17-Nov,10,18-Nov,A5.3
+A5.8,Standard work report and  meet client and discuss changes,All team,18-Nov,,18-Nov,A5
+A5.8.1,Write rest of SPT base on client's suggestion,All team,18-Nov,,As start time,A5.8
+A5.9,Do Final changes base on client's suggestion and sumbit STP,All team,18-Nov,,21-Nov,A5
+A6.6,Presentation of project's current process,All team,TBA,0.5,,A6
+A7,Plan to finsh Coding of the whole B-bay system,,,,,
